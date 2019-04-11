@@ -1,0 +1,93 @@
+body{
+background-color: grey;
+
+}
+.bigdiv{
+
+    background-color: white;
+    width: 53%;
+    border-radius: 15px;
+    margin-top: 111px;
+}
+header{
+    color: grey;
+    padding: 15px;
+}
+.divProduct{
+    border-top: solid 1px;
+    border-color: grey;
+    margin-right: 0;
+    margin-left: 0;
+    padding: 10px;
+}
+.btn{
+    border-radius: 14px;
+    background-color: #f6b901;
+    border-color: #f6b901;
+    color: grey;
+}
+.btn_div{
+
+    padding-top: 21px;
+}
+.btn_div input{
+
+    width: 26px;
+    height: 20px;
+    border: none;
+    text-align: center;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#priceTotal{
+    border: none;
+    
+}
+#price1{
+    border: none;
+    width: 51%;
+    
+}
+#price2{
+    border: none;
+    width: 51%;
+    
+}
+#price3{
+    border: none;
+    width: 51%;
+    
+}
+.price{
+    padding-top: 24px;
+    padding-left: 35px;
+}
+
+#priceTotal{
+    width: 40px;
+}
+.div_img img{
+    height: 83px;
+}
+.txt{
+    padding-top: 18px;
+    padding-left: 41px;
+}
+.btn{
+    WIDTH: 40px;
+}
+span{
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+.icon{
+    padding-top: 25px;
+}
+
+
+

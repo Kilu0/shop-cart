@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="simple-line-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+    <title>Document</title>
+    <script src="shop.js"></script>
+</head>
+<body class=" d-flex justify-content-center" >
+    <div class="bigdiv  " >
+        <header>
+            Shopping Big Total: <input id="priceTotal" type="number" value="" />$
+        </header>
+        <div id="Product1" class="divProduct row " >
+            <div class="icon col-md-2" >
+                <span onclick="hideDiv(1)" id="icon-close" class="icon-close"></span>
+                <span onclick="likeColor(1)" id="icon-heart1" class="icon-heart"></span>
+            </div>
+            <div class="div_img col-md-2 " ><img  class="" src="atttt.png" alt=""></div> 
+            <div class="txt col-md-3" >  Human <br>  Panda </div>
+            <div class="btn_div col-md-3" > 
+                
+                <button onclick="plus(1)" id="btnP" type="button" class="btn btn-secondary">+</button> 
+                <input id="inputNumber1" type="number" value="0" />
+                <button onclick="moins(1)"id="btnM" type="button" class="btn btn-secondary">-</button>
+            </div>    
+            <div  class="col-md-2 price">
+                    <input id="price1" type="number" value="500" />$
+            </div>
+            
+        </div>
+
+        <div id="Product2" class="divProduct  row " >
+            <div class="icon col-md-2" >
+                <span onclick="hideDiv(2)" id="icon-close" class="icon-close"></span>
+                <span onclick="likeColor(2)" id="icon-heart2" class="icon-heart"></span>
+            </div>
+            <div class="div_img col-md-2 " ><img  class="" src="atttt.png" alt=""></div> 
+            <div class="txt col-md-3" >  Human <br>  Panda </div>
+            <div class="btn_div col-md-3" > 
+                
+                <button onclick="plus(2)" id="btnP" type="button" class="btn btn-secondary">+</button> 
+                <input  id="inputNumber2" type="number" value="0" />
+                <button onclick="moins(2)"id="btnM" type="button" class="btn btn-secondary">-</button>
+            </div>    
+            <div  class="col-md-2 price">
+                    <input id="price2" type="number" value="200" />$
+            </div>
+        </div>
+        <div id="Product3" class="divProduct row " >
+            <div class="icon col-md-2" >
+                <span onclick="hideDiv(3)" id="icon-close" class="icon-close"></span>
+                <span onclick="likeColor(3)" id="icon-heart3" class="icon-heart"></span>
+            </div>
+            <div class="div_img col-md-2 " ><img  class="" src="atttt.png" alt=""></div> 
+            <div class="txt col-md-3" >  Human <br>  Panda </div>
+            <div class="btn_div col-md-3" > 
+                
+                <button onclick="plus(3)" id="btnP" type="button" class="btn btn-secondary">+</button> 
+                <input id="inputNumber3" type="number" value="0" />
+                <button onclick="moins(3)"id="btnM" type="button" class="btn btn-secondary">-</button>
+            </div>    
+            <div  class="col-md-2 price">
+                    <input id="price3" type="number" value="100" />$
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
